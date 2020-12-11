@@ -1,0 +1,21 @@
+syntax="proto3";
+
+option go_package=".;pb";
+
+import "google/api/annotations.proto";
+
+package Message.v1;
+
+message MessageRequest {}
+
+message MessageResponse {
+  string message = 1;
+}
+
+service MessageService {
+  rpc GetMessage (MessageRequest) returns (MessageResponse) {
+    option (google.api.http) = {
+      get: "/v1/message"
+    };
+  };
+}
