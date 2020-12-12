@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	pb "github.com/mvrilo/presentations/go-protobuf-microservices/generated"
+	pb "github.com/mvrilo/talks/go-protobuf-microservices/generated"
 )
 
 func main() {

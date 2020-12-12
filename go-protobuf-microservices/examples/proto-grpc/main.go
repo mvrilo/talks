@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	pb "github.com/mvrilo/presentations/go-protobuf-microservices/generated"
+	pb "github.com/mvrilo/talks/go-protobuf-microservices/generated"
 	"google.golang.org/grpc"
 )
 
