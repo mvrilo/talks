@@ -471,13 +471,12 @@ Async/Await:
 
 * Próximos passos:
 
-- Testes
-- Sincronização
 - Alocação de memória (stack vs heap)
+- Sincronização/Comunicação
 - Concurrency patterns
 - Design patterns
 
-* Referencias
+Referencias
 
 [[https://tour.golang.org/list]]
 [[https://golang.org/doc/effective_go.html]]
