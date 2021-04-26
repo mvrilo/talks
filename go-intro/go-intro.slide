@@ -59,6 +59,15 @@ Go 2.0 em 202x, introduzindo generics na linguagem.
 Atualmente na versão 1.16
 
 
+* Instalação
+
+    brew install go
+
+Gerenciamento de dependencias embutido (e distribuido)
+
+    go get github.com/picpay/meuprojetogo
+
+
 * Tour pela linguagem
 
 * Tipos Básicos
